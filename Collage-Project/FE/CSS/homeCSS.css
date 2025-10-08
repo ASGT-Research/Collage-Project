@@ -38,7 +38,7 @@ img:hover{
     transition-duration: 0.20s;
 }
 #header{
-    background-image: linear-gradient(90deg,red,blue,green);
+    background-image: linear-gradient(#3396D3);
     height:100px;
     width:100%;
     margin-bottom: 10px;
@@ -116,7 +116,7 @@ div li{
     display: flex;
     justify-content:space-evenly;
     flex-direction: row;
-    background-image: linear-gradient(red,orange);
+    background-image: linear-gradient(#3396D3);
     padding:20px;
     margin:120px auto 0px;
     width:1000px;
@@ -132,7 +132,7 @@ div li{
 }
 
 #nav div:hover{
-    background-image: linear-gradient(90deg,purple,blue);
+    background-image: linear-gradient(#3396D3);
     transition-property: "background-image";
     transition-duration: 0.25s;
 }
@@ -147,7 +147,7 @@ div li{
     border:2px solid black;
     border-radius: 20px;
     padding:10px;
-    background-image: linear-gradient(105deg,blue,green);
+    background-image: linear-gradient(#3396D3);
     color:white;
 }
 .content li{
@@ -158,7 +158,7 @@ div li{
     border-bottom:none;
 }
 .content li:hover{
-    background:linear-gradient(90deg,green,blue);
+    background:linear-gradient(#3396D3);
     border-radius:30px;
 }
 #nav div:hover .content{
@@ -169,7 +169,7 @@ div li{
 #foot{
     position: fixed;
     bottom:0px;    
-    background-image: linear-gradient(lightgreen,green);
+    background-image: linear-gradient(#3396D3);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     display: block;
